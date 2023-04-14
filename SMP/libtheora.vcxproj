@@ -41,6 +41,7 @@
       <AdditionalIncludeDirectories>.\;..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4018;4244;4267;4700;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
     </ClCompile>
     <Lib>
       <AdditionalDependencies>liboggd.lib;%(AdditionalDependencies)</AdditionalDependencies>
